@@ -17,11 +17,11 @@ $(document).ready(function () {
     },
   });
   var owl = $(".owl-carousel");
-  $(".next-button").click(function () {
+  $("#next-btn").click(function () {
     owl.trigger("next.owl.carousel");
   });
 
-  $(".previous-button").click(function () {
+  $("#prev-btn").click(function () {
     owl.trigger("prev.owl.carousel");
   });
 
